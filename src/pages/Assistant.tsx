@@ -103,7 +103,7 @@ function buildReply(q: string, tasks: ReturnType<typeof useStore>["tasks"], sett
   }
 
   // Default
-  return "I can plan your next hours, adjust to your mood, count your tasks, or remind you about overdue items. Try: "what should I do next?" or "I'm feeling tired."";
+  return `I can plan your next hours, adjust to your mood, count your tasks, or remind you about overdue items. Try: "what should I do next?" or "I'm feeling tired."`;
 }
 
 export default function Assistant() {
